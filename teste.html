@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./mask.js"></script>
+</head>
+<body>
+    <input type="text" placeholder="CPF" id="cpf" onkeyup="mask('###.###.###-##', this)">
+    <br><br>
+    <input type="text" placeholder="Tel" id="tel" onkeyup="mask('(##)####-####', this)">
+    <br><br>
+    <input type="text" placeholder="Cel" id="cel" onkeyup="mask('(##)#####-####', this)">
+    <br><br>
+    <input type="text" placeholder="CNPJ" id="cnpj" onkeyup="mask('##.###.###/####-##', this)">
+    <br><br>
+    <input type="text" placeholder="CEP" id="cep" onkeyup="mask('#####-###', this)">
+    <br><br>
+    <input type="text" placeholder="RG" id="rg" onkeyup="mask('##.###.###-#', this)">
+
+
+</body>
+</html>
